@@ -9,4 +9,4 @@ export default function preto() {
 }
 
 
-ReactDOM.render(preto(p), document.getElementById('root'))
+ReactDOM.render(preto(p), document.getElementById('root/'))
