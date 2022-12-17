@@ -1,4 +1,4 @@
-{import React from "react"}
+//{import React from "react"}
 
 export default function preto() {
     return (
@@ -8,5 +8,6 @@ export default function preto() {
     )
 }
 
+const root = ReactDOM.createRoot(document.getElementById('root'));
 
-ReactDOM.render(preto(), document.getElementById('root/'))
+root.render(<p>Hey man</p>)
